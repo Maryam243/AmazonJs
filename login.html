@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="css/login1.css">
+    <title>Amazon SigIn page</title>
+</head>
+<body>
+    <section>
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png" >  
+        <span>.in</span> 
+      </div>
+      <div class="card">
+        <h1>Sign in</h1>
+        <div class="form">
+          <form action="project.html" method="get" onsubmit="validateForm(event)">
+
+            <label for="">Email or mobile phone number</label>
+            <input type="text" required id="input1"><p id="req" style="color:red;"></p><p id="span1" onclick="asd(this)">please enter valid email</p>
+            <label for="">Password</label>
+            <input type="password" required id="input2"><p id="span2" onclick="asd(this)">please enter valid password</p>
+            <!-- <button>Continue</button> -->
+            <input type="submit" value="login" class="button" id="loginBtn">
+          </form>
+        </div>
+        <p>By signing in, you agree to Amazon's <a href="#">Conditions of Use</a> and <a href="#">Privacy Notice<a>.</p>
+            <a href="#" class="icon">Need help?</a>
+      </div> 
+      <div class="breck">
+      <p>new to Amazon?</p>  
+      </div> 
+      <div class="btn">
+        <button id="acountBtn">Create your Amazon account</button>
+      </div>
+      <footer>
+        <div class="link">
+            <a href="#"> Conditions of Use </a> 
+            <a href="#"> Privacy Notice </a> 
+            <a href="#"> Help </a> 
+        </div>
+        <p>©1996–2022, Amazon.com, Inc. or its affiliates</p>
+        </footer>
+    </section>
+    <script src="./js/login.js"></script>
+</body>
+</html>

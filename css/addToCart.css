@@ -1,0 +1,80 @@
+ /* global setting  */
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color:#fff
+}
+ul{
+    list-style: none;
+}
+:root{
+ --mainBg:#ccc;
+ --mainC:#F3A847;
+}
+
+ /* my Framework  */
+ .flex{
+    display: flex;
+    align-items: center;
+ }
+  .rounded{
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.text-center{
+    text-align: center;
+}
+.container{
+    padding: 0 20px;
+    margin: 0 auto;
+}
+svg{
+    width: 20px;
+}
+/* ===== start product section ==== */
+.products{
+    padding: 20px 0;
+}
+.product{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 15px;
+}
+.product-box{
+    margin: 20px 0;
+}
+
+.product-box img{
+    width: 80%;
+    height: 200px;
+}
+.product-box button{
+    text-align: center;
+     border: none;
+     outline: none;
+     background-color:var(--mainC);
+     padding: 10px;
+     width: 150px;
+     margin-left: 20px;
+     margin-top: 5px;
+     cursor: pointer;
+}
+.product-box p{
+    margin: 5px 0;
+}
+.product-box h2{
+    margin: 5px;
+}
